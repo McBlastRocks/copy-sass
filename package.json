@@ -1,0 +1,23 @@
+{
+  "name": "clone-jelpmi",
+  "version": "1.0.0",
+  "description": "It's only from practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikeermz/copy-sass.git"
+  },
+  "author": "Mikee Rmz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikeermz/copy-sass/issues"
+  },
+  "homepage": "https://github.com/Mikeermz/copy-sass#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
