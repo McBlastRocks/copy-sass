@@ -1,2 +1,21 @@
-* {
-  background-color: red; }
+.index-wrap {
+  background-size: 100% 100%;
+  background-image: url("../../img/girl-hero.jpg");
+  background-color: #f037a5;
+  height: 800px; }
+
+.header {
+  position: fixed;
+  z-index: 10;
+  width: 100%; }
+
+.navbar-transparent {
+  background-color: transparent; }
+
+.a-disabled {
+  pointer-events: none; }
+
+.navbar-logo {
+  width: 132px;
+  height: 40px;
+  background-size: 132px 40px; }
