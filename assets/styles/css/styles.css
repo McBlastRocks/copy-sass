@@ -1,2 +1,20 @@
-* {
-  background-color: red; }
+.services {
+  border: 1px solid blue;
+  padding: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.card {
+  width: 2000px; }
+
+.btn-primary {
+  background-color: #A500AC;
+  border-style: none; }
+
+.btn-secondary {
+  background-color: #FF0099;
+  border-style: none; }
+
+.btn:hover {
+  background-color: inherit; }
