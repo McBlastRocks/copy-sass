@@ -1,8 +1,10 @@
 .index-wrap {
   background-size: 100% 100%;
   background-image: url("../../img/girl-hero.jpg");
-  background-color: #f037a5;
   height: 800px; }
+
+.center-elements {
+  margin: 0 160px; }
 
 .header {
   position: fixed;
@@ -15,7 +17,29 @@
 .a-disabled {
   pointer-events: none; }
 
+.scrolled {
+  background-color: white;
+  color: black; }
+
 .navbar-logo {
   width: 132px;
   height: 40px;
   background-size: 132px 40px; }
+
+.typewriter-container {
+  text-align: center;
+  color: #fff;
+  padding-top: 280px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 42px; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  margin: 0 4px 0 0; }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    background: white;
+    color: #9032c8; }
+
+.border-btn {
+  border: 1px solid white; }
