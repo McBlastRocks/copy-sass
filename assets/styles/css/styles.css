@@ -1,9 +1,3 @@
-.footer-jelpmi {
-  background-color: #441B78; }
-
-li {
-  list-style-type: none; }
-
 .title-helpers {
   font-weight: bold;
   font-size: 20px;
@@ -17,15 +11,17 @@ li {
   border-radius: 5px;
   font-weight: 600;
   border: solid 1px #441B78;
-  padding: 10px 70px; }
+  padding: 10px 70px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
   .btn-jelpmi:hover {
     color: #FFFFFF;
     text-decoration: none;
     background-color: #963CC6; }
 
 .img-helper img {
-  width: 200px;
-  height: 200px; }
+  width: 220px;
+  height: 220px; }
 
 .separator {
   background: #DB1ADF;
@@ -36,12 +32,21 @@ li {
   margin: 0;
   padding: 0; }
 
-.footer-jelpmi {
+.footer-jelpmi, .mini-footer {
+  background-color: #441B78; }
+
+li {
+  list-style-type: none; }
+
+.list-links li:first-child {
+  font-weight: 900; }
+
+.footer-jelpmi, .mini-footer {
   color: #FFFFFF;
   width: 100%; }
-  .footer-jelpmi a {
+  .footer-jelpmi a, .mini-footer a {
     text-decoration: none; }
-    .footer-jelpmi a:visited, .footer-jelpmi a:link {
+    .footer-jelpmi a:visited, .footer-jelpmi a:link, .mini-footer a:visited, .mini-footer a:link {
       color: #FFFFFF; }
 
 .logo img {
@@ -53,6 +58,26 @@ li {
   height: 60px;
   padding-bottom: 10px; }
 
-@media (max-width: 991.98px) {
-  .helpers-images {
-    border: solid blue 3px; } }
+.texto-footer {
+  font-weight: bold; }
+  .texto-footer img {
+    width: 30px;
+    height: 20px;
+    padding-right: 4px;
+    padding-left: 4px; }
+
+@media (max-width: 768px) {
+  .apps-buttons img {
+    width: 100px;
+    height: 40px;
+    padding-bottom: 10px; } }
+
+@media (max-width: 425px) {
+  .logo img {
+    width: 100px;
+    height: 40px; }
+  .apps-buttons {
+    margin-top: 15px; }
+  .mini-footer {
+    padding-top: 20px;
+    padding-bottom: 50px; } }
