@@ -1,2 +1,54 @@
-* {
-  background-color: red; }
+.footer-jelpmi {
+  background-color: #441B78; }
+
+li {
+  list-style-type: none; }
+
+.title-helpers {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.btn-jelpmi {
+  color: #441B78;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  border: solid 1px #441B78;
+  padding: 10px 70px; }
+  .btn-jelpmi:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #963CC6; }
+
+.img-helper img {
+  width: 300px;
+  height: 300px; }
+
+.separator {
+  background: #DB1ADF;
+  height: 3px;
+  margin: 0; }
+
+.helpers {
+  margin: 0;
+  padding: 0; }
+
+.footer-jelpmi {
+  color: #FFFFFF;
+  width: 100%; }
+  .footer-jelpmi a {
+    text-decoration: none; }
+    .footer-jelpmi a:visited, .footer-jelpmi a:link {
+      color: #FFFFFF; }
+
+.logo img {
+  width: 160px;
+  height: 80px; }
+
+.apps-buttons img {
+  width: 150px;
+  height: 60px;
+  padding-bottom: 10px; }
