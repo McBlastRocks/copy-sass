@@ -1,20 +1,41 @@
-.services {
-  border: 1px solid blue;
-  padding: 10%;
+.card-deck {
+  padding: 5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
 
-.card {
-  width: 2000px; }
+.image-box {
+  color: white;
+  position: relative; }
+
+.title {
+  font-size: 150%;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
 
 .btn-primary {
   background-color: #A500AC;
   border-style: none; }
+  .btn-primary:hover {
+    background-color: #A500AC;
+    opacity: 0.7; }
 
 .btn-secondary {
   background-color: #FF0099;
   border-style: none; }
+  .btn-secondary:hover {
+    background-color: #FF0099;
+    opacity: 0.7; }
 
-.btn:hover {
-  background-color: inherit; }
+.logos {
+  margin: 5%; }
+  .logos .img-box img {
+    width: 70%; }
