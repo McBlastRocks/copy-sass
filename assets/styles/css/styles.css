@@ -74,3 +74,28 @@ div {
   font-size: 19px;
   margin: 16px 0 16px 0;
   color: white; }
+
+.mas-beneficios {
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	font-family: sans-serif;
+	font-size: 15.5px;
+	width: 300px;
+	border: 1px solid white;
+	background: transparent;
+}
+
+.button:hover {
+	background-color: white;
+	color: #3023ae;
+	border: none;
+}
