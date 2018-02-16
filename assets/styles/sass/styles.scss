@@ -1,12 +1,19 @@
 $text_color: #FFFFFF;
 $purple: #441B78;
 
+.text-helpers {
+	padding: 20px;
+	text-align: center;
+}
+
 .title-helpers{
+	@extend .text-helpers;
 	font-weight: bold;
 	font-size: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
 .btn-jelpmi {
 	color: $purple;
   font-size: 14px;
@@ -25,8 +32,8 @@ $purple: #441B78;
 }
 .img-helper {
 	img {
-		width: 220px;
-		height: 220px;
+		width: 300px;
+		height: 300px;
 	}
 }
 
@@ -74,6 +81,9 @@ li {
 		height: 60px;
 		padding-bottom: 10px;
 	}
+	.play {
+		margin-right: 20px;
+	}
 }
 
 .texto-footer {
@@ -85,13 +95,25 @@ li {
 		padding-left: 4px;
 	}
 }
-
+.list-links {
+	img {
+		width: 24px;
+		height: 24px;
+		padding: 2px;
+	}
+}
 @media (max-width: 768px) {
 	.apps-buttons {
 		img {
 			width: 100px;
 			height: 40px;
 			padding-bottom: 10px;
+		}
+	}
+	.img-helper {
+		img {
+			width: 240px;
+			height: 240px;
 		}
 	}
 }
