@@ -2,6 +2,200 @@ $text_color: #FFFFFF;
 $purple: #441B78;
 $mainbtn_color: #963CC6;
 $separator_color: #DB1ADF;
+$jm_purple: #A500AC;
+$jm_pink: #FF0099;
+
+.index-wrap{
+  background-size: 100% 100%;
+  background-image: url("../../img/girl-hero.jpg");
+  height: 800px;
+}
+
+.center-elements{
+  margin: 0 160px
+}
+
+.header{
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+}
+.navbar-transparent{
+	background-color: rgba(0,0,0,0);
+}
+.a-disabled{
+    pointer-events: none;
+}
+.scrolled{
+  background-color: white;
+  color: black;
+}
+
+.navbar-logo{
+  width: 132px;
+  height: 40px;
+  background-size: 132px 40px;
+}
+
+.typewriter-container{
+  text-align: center;
+  color:#fff;
+  padding-top: 280px;
+  color:#fff;
+  text-decoration: none;
+  font-size: 42px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  margin: 0 4px 0 0;
+  &:hover{
+    background: white;
+    color: #9032c8;
+  }
+}
+
+.border-btn{
+  border: 1px solid white;
+}
+// Estilos para la sección morada
+// -------------------------------------------------------------
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.cuadro-morado {
+  background-image: linear-gradient(107deg, #3023ae, #c96dd8);
+  padding: 70px 0 70px 0; }
+
+div {
+  display: block; }
+
+.container {
+  width: 100%;
+  padding: 0; }
+
+.container-img img {
+  margin-top: 30px; }
+
+.element-cuadro-morado {
+  display
+  text-align: center;
+  display: block;
+  padding: 0 11.250px 0 11.250px; }
+
+.element-cuadro-morado p {
+  height: auto;
+  min-height: 80px;
+  line-height: 1.15;
+  // width: auto;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+  margin: 16px 0 16px 0;
+  color: white; }
+
+.mas-beneficios {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-family: sans-serif;
+  font-size: 15.5px;
+  width: 300px;
+  border: 1px solid white;
+  background: transparent;
+}
+
+.button:hover {
+  background-color: white;
+  color: #3023ae;
+  border: none;
+}
+
+.services{
+	padding: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.card{
+	width: 2000px;
+}
+
+.btn-primary{
+	background-color: #A500AC;
+	border-style: none;
+}
+
+.btn-secondary{
+	background-color: #FF0099;
+	border-style: none;
+}
+
+.btn:hover{
+	border: 1px solid green;
+	background-color: inherit;
+}
+
+.card-deck{
+	padding: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	.img-box{
+		color: white;
+		position: relative;
+	}
+	.img-title{
+		font-size: 150%;
+		font-weight: bold;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		color: #fff;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.btn-primary{
+		background-color: $jm_purple;
+		&:hover{
+			background-color: $jm_purple;
+			opacity: 0.7;
+		}
+		border-style: none;
+	}
+	.btn-secondary{
+		background-color: $jm_pink;
+		&:hover{
+			background-color: $jm_pink;
+			opacity: 0.7;
+		}
+		border-style: none;
+	}
+}
+
+.logos{
+	margin: 5%;
+	.img-box{
+		img{
+			width: 60%;
+		}
+	}
+	.sony{
+		img{
+			width: 20%;
+		}
+	}
+}
 
 .text-helpers {
 	padding: 20px;

@@ -1,3 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.index-wrap {
+  background-size: 100% 100%;
+  background-image: url("../../img/girl-hero.jpg");
+  height: 800px; }
+
+.center-elements {
+  margin: 0 160px; }
+
+.header {
+  position: fixed;
+  z-index: 10;
+  width: 100%; }
+
+.navbar-transparent {
+  background-color: transparent; }
+
+.a-disabled {
+  pointer-events: none; }
+
+.scrolled {
+  background-color: white;
+  color: black; }
+
+.navbar-logo {
+  width: 132px;
+  height: 40px;
+  background-size: 132px 40px; }
+
+.typewriter-container {
+  text-align: center;
+  color: #fff;
+  padding-top: 280px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 42px; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  margin: 0 4px 0 0; }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    background: white;
+    color: #9032c8; }
+
+.border-btn {
+  border: 1px solid white; }
+
+.cuadro-morado {
+  background-image: linear-gradient(107deg, #3023ae, #c96dd8);
+  padding: 70px 0 70px 0; }
+
+
+div {
+  display: block; }
+
+.container {
+  width: 100%;
+  padding: 0; }
+
+.container-img img {
+  margin-top: 30px; }
+
+.element-cuadro-morado {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  text-align: center;
+  padding: 0 11.250px 0 11.250px; }
+
+.element-cuadro-morado p {
+  height: auto;
+  min-height: 80px;
+  line-height: 1.15;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 16px 0 16px 0;
+  color: white; }
+
+@media (max-width: 425px) { 
+	.parrafo{
+		font-size: 16px !important;	
+	}
+}
+.mas-beneficios {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center; }
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-family: sans-serif;
+  font-size: 15.5px;
+  width: 300px;
+  border: 1px solid white;
+  background: transparent; }
+
+.button:hover {
+  background-color: white;
+  color: #3023ae;
+  border: none; }
+
+.services {
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.card {
+  width: 2000px; }
+
+.btn-primary {
+  background-color: #A500AC;
+  border-style: none; }
+
+.btn-secondary {
+  background-color: #FF0099;
+  border-style: none; }
+
+.btn:hover {
+  border: 1px solid green;
+  background-color: inherit; }
+
+.card-deck {
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .card-deck .img-box {
+    color: white;
+    position: relative; }
+  .card-deck .img-title {
+    font-size: 150%;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+  .card-deck .btn-primary {
+    background-color: #A500AC;
+    border-style: none; }
+    .card-deck .btn-primary:hover {
+      background-color: #A500AC;
+      opacity: 0.7; }
+  .card-deck .btn-secondary {
+    background-color: #FF0099;
+    border-style: none; }
+    .card-deck .btn-secondary:hover {
+      background-color: #FF0099;
+      opacity: 0.7; }
+
+.logos {
+  margin: 5%; }
+  .logos .img-box img {
+    width: 60%; }
+  .logos .sony img {
+    width: 20%; }
 .text-helpers, .title-helpers {
   padding: 20px;
   text-align: center; }
@@ -95,4 +261,5 @@ li {
     margin-top: 15px; }
   .mini-footer {
     padding-top: 20px;
-    padding-bottom: 50px; } }
+    padding-bottom: 50px; } }    
+
